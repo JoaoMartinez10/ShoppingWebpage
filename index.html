@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martinez MMA Gear</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Martinez MMA Gear</h1>
+        <input type="text" id="searchBar" placeholder="Search for products..." />
+        <select id="sortOptions">
+            <option value="default">Sort By</option>
+            <option value="priceAsc">Price: Low to High</option>
+            <option value="priceDesc">Price: High to Low</option>
+            <option value="nameAsc">Name: A-Z</option>
+            <option value="nameDesc">Name: Z-A</option>
+        </select>
+        <div class="category-filters">
+            <label><input type="checkbox" class="categoryFilter" value="MMA"> MMA</label>
+            <label><input type="checkbox" class="categoryFilter" value="Striking"> Striking</label>
+            <label><input type="checkbox" class="categoryFilter" value="BJJ"> BJJ</label>
+        </div>
+    </header>
+    <main id="productList">
+       >
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+

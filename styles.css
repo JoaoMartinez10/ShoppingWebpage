@@ -1,0 +1,85 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('main.JPG'); 
+  background-size: cover; 
+  background-position: top; 
+  background-attachment: fixed;
+  color: #130101;
+}
+
+
+header {
+  background-color: rgba(0, 0, 0, 0.7); 
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+header input, header select {
+  padding: 8px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+
+header .category-filters {
+  margin-top: 10px;
+}
+
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); 
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+.product-card {
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-card h3 {
+  margin: 10px 0;
+  font-size: 18px; 
+}
+
+.product-card p {
+  margin: 5px 0;
+  font-size: 14px; 
+}
+
+
+.product-card:hover {
+  transform: scale(1.05); 
+}
+
+
+.category-filters {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.category-filters label {
+  font-size: 14px;
+  color: #fff;
+}
